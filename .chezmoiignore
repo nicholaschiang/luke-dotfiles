@@ -7,4 +7,10 @@ Makefile
 .ssh/
 .config/aerc/
 .config/regolith/
+.config/neofetch/
+.fonts/
+.xmodmap
+.cargo/
+.bashrc
+.profile
 {{- end }}
