@@ -20,6 +20,7 @@ alias xclip="xclip -selection clipboard"
 alias ping="prettyping --nolegend"
 alias fix-chmod="chmod -R a=r,u+w,a+X"
 alias rsync="rsync -P"
+alias fix-ssh="eval $(tmux showenv -s SSH_AUTH_SOCK)"
 dsf() { diff -u "$@" | delta; }
 
 alias pdfrotate="pdfjam --angle 90 --fitpaper true --outfile rotated.pdf"
